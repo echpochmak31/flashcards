@@ -1,0 +1,26 @@
+.flashcard-line {
+    border-top: 3px solid #000000;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+}
+
+.flashcard-line:last-of-type {
+    margin-top: 30px;
+}
+
+.flashcard-line:first-of-type {
+    margin-bottom: 30px;
+}
+
+#flashcard-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 80px;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+}
+

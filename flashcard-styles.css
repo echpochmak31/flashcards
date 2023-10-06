@@ -1,4 +1,4 @@
-#container {
+.container {
     display: flex;
     justify-content: safe center;;
     align-items: center;
@@ -35,8 +35,17 @@
 }
 
 #flashcard-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     height: 90%;
+    text-align: center;
+    flex-direction: column;
+    overflow: auto;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
 }
 
 #left-arrow-block {
