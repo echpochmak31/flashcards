@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <!--<html lang="en">-->
+<html>
 <head>
     <title>IntelliCards</title>
     <meta charset="utf-8">
     <meta name="keywords" content='flashcards, flash cards, флешкарточки, флеш-карточки, флеш карточки'>
-<!--            <link href="outline-prototype-safe.css" rel="stylesheet">-->
+<!--    <link href="outline-prototype-safe.css" rel="stylesheet">-->
     <!--    <link href="styles.css" rel="stylesheet">-->
+    <link href="header.css" rel="stylesheet">
+    <link href="body.css" rel="stylesheet">
+
     <link href="s.css" rel="stylesheet">
 
 
@@ -20,28 +24,39 @@
 
             <img src="logo-l.png" class="logo">
 
-            <ul>
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#">Collection</a></li>
-                <li class="item"><a href="#">About</a></li>
-                <li class="item"><a href="#">Manual</a></li>
-                <li class="item"><a href="#">Contact</a></li>
+            <ul class="header-list">
+                <li class="list-item"><a href="#">Home</a></li>
+                <li class="list-item"><a href="#">Collection</a></li>
+                <li class="list-item"><a href="#">About</a></li>
+                <li class="list-item"><a href="#">Manual</a></li>
+                <li class="list-item"><a href="#">Contact</a></li>
             </ul>
 
-            <a id="avatar" href="www.google.com"></a>
-<!--            <div id="avatar">-->
-<!--            </div>-->
-            <!--            <img src="avatar.jpg" alt="profile image here" class="avatar">-->
+            <a id="avatar" href="https://www.google.com"></a>
         </nav>
     </div>
 </header>
-
-<div class="separador"></div>
-
-<div class="separador"></div>
-
 <main>
+    <div id="flashcard-info">
+        <h1>text</h1>
 
+    </div>
+    <!--    <div class="separador"></div>-->
+
+    <div id="container">
+        <div id="flashcard-block">
+<!--            <a id="left-arrow-block" class="arrow-block" href="https://www.google.com"></a>-->
+            <div id="left-arrow-block" class="arrow-block"></div>
+            <div id="flashcard">
+                <div id="flashcard-text">
+                    <p>some definition</p>
+                </div>
+            </div>
+<!--            <a id="right-arrow-block" class="arrow-block" href="https://www.google.com"></a>-->
+            <div id="right-arrow-block" class="arrow-block" href="https://www.google.com"></div>
+        </div>
+
+    </div>
 </main>
 </body>
 </html>

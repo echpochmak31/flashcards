@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box; /* Prevent padding (and borders) from adding to width/height */
+}
+
+html, body {
+    margin: 0px; /* Remove browser default margins */
+    padding: 0px; /* Remove browser default padding */
+}
+html {
+    height: 100%; /* Helps min-height work properly on body */
+}
+.separador {
+    margin-top: 50px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.separador:after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: -30px auto 0;
+    border-radius: 120px / 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
+}
+
+
+/*body {*/
+/*    background-image: url("background-image.png");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    background-color: #ECECEC;*/
+/*}*/
+
+body {
+    position: relative; /* Assist "position: absolute" below */
+    padding-bottom: 60px; /* Must match footer height; make up for footer being removed from the document flow */
+    min-height: 100%; /* Force body to be at least the size of the screen */
+    background: #ECECEC; /* Backup color */
+    background: url("background-limes.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

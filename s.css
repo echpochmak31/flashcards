@@ -1,94 +1,54 @@
-body {
-    background: #ECECEC;
-}
-
-header {
-    background: #FFFFFF;
-    width: 100%;
-    /*outline: red dashed 2px;*/
-    border-bottom: 2px solid #000000    ;
-    padding-bottom:5px;
-}
-
-.top-bar-container nav {
+#container {
     display: flex;
-    justify-content: space-between;
+    justify-content: safe center;;
     align-items: center;
-    /*padding-left: 80px;*/
-    padding-right: 80px;
-    /*padding-top: 10px;*/
 }
 
-.top-bar-container .logo {
-    margin-left: 80px;
-    width: 10%;
-    height: 10%;
+#flashcard-block {
+    display: flex;
+    justify-content: safe center;;
+    align-items: center;
+    gap: 30px;
+    background: rgba(49, 179, 163, 0.5);
+    width: 1512px;
+    height: 640px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
 
-/*.top-bar-container nav ul {*/
-/*    position: absolute;*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
-/*}*/
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;
-    font-family: 'Lato', sans-serif;
+.arrow-block {
+    width: 120px;
+    height: 400px;
+    background: rgba(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
 
-nav ul li a {
-    color: #0A241A;
-    text-decoration: none;
-    text-transform: uppercase;
+#flashcard {
+    display: flex;
+    justify-content: safe center;
+    align-items: center;
+    width: 940px;
+    height: 540px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
 
-/*.top-bar-container .avatar{*/
-/*    width: 10%;*/
-/*    height: 10%;*/
-/*    margin-bottom: 10px;*/
-/*    margin-top: 10px;*/
-/*    !*margin-left: -25px;*!*/
-/*}*/
-
-#avatar {
-    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
-    background-image: url('https://i.stack.imgur.com/Dj7eP.jpg');
-
-    /* make a square container */
-    width: 100px;
-    height: 100px;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-}
-
-.separador {
-    margin-top: 50px;
-    overflow: hidden;
-    height: 20px;
-}
-
-.separador:after {
-    content: '';
-    display: block;
+#flashcard-text {
     width: 90%;
-    height: 30px;
-    margin: -30px auto 0;
-    border-radius: 120px / 10px;
-    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    height: 90%;
 }
 
-.item {
+#left-arrow-block {
+    background-image: url("left-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+}
 
+#right-arrow-block {
+    background-image: url("right-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
 }
