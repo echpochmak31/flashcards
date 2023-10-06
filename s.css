@@ -1,0 +1,41 @@
+body {
+    background: #ECECEC;
+}
+
+header {
+    background: #FFFFFF;
+}
+
+.top-bar-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    /*padding-top: 10px;*/
+}
+
+.top-bar-container .logo {i
+    margin-left: 80px;
+    width: 266px;
+    height: 66px;
+}
+
+/*.top-bar-container nav ul {*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a {
+    color: #0A241A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
